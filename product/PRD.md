@@ -38,7 +38,9 @@ rpm/deb 高度依赖操作系统发行版和CPU架构
 
 * 仓库
 
-仓库即最终存放 deb/rpm 包的货架，货架要符合 apt/yum 分发模式
+仓库即最终存放 deb/rpm 包的货架，货架要符合 apt/yum 分发模式。  
+仓库以 Azure Blob 作为存储库，URL为：https://download.websoft9.com
+
 
 ## 详细设计
 
